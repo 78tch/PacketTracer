@@ -77,4 +77,7 @@ $ cp ~/デスクトップ/Cisco-PacketTracer.desktop /usr/share/applications/
 <img src="images/21.png" alt="image">  
 <img src="images/22.png" alt="image">  
   
-以上です。enjoy!
+以上です。enjoy!  
+  
+●参考にしたサイト：
+https://www.sysnettechsolutions.com/en/ciscopackettracer/install-cisco-packet-tracer-7-2-ubuntu-18-10/
