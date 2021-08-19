@@ -1,7 +1,7 @@
 # Cisco Packet Tracer 8.0.1 on Ubuntu 21.04
 バージョン8になって、すんなりインストールできるようになりました。
-1. Cisco Networking Academy から「CiscoPacketTracer_801_ubuntu_64bit.deb」をダウンロードする。  
-2. 「ソフトウェアのインストール」でインストールしようとすると、エラーになる。※インストールの途中でライセンスの確認があるため？
+1. Cisco Networking Academy （ https://www.netacad.com/ja ）から「CiscoPacketTracer_801_ubuntu_64bit.deb」をダウンロードする。  
+2. 「ソフトウェアのインストール」（GUI）でインストールしようとすると、エラーになる。※インストールの途中でライセンスの確認があるため？
 ```sh
 packettracer をインストールできません：  
 Error while installing package:  
@@ -12,7 +12,7 @@ new packettracer package pre-installation script subprocess returned error exit 
 $ sudo apt-get install CiscoPacketTracer_801_ubuntu_64bit.deb  
 ```  
 4. ライセンスに同意する。tabキーを押して<了解>を反転させる。
-5. 初回ログイン時、マルチユーザーモードで起動するか訊かれる。（私はNoとしています）
+5. 初回ログイン時、マルチユーザーモードで起動するか訊かれる。（複数人で演習する用。私はNoとしています）
 6. 初回ログイン時、サインインを求められます。Cisco Networking Academy のアカウントでログインします。
 7. 起動します。
 
