@@ -1,3 +1,20 @@
+# Cisco Packet Tracer 8.0.1 on Ubuntu 21.04
+バージョン8になって、すんなりインストールできるようになりました。
+1. Cisco Networking Academy から「CiscoPacketTracer_801_ubuntu_64bit.deb」をダウンロードする。  
+2. 「ソフトウェアのインストール」でインストールしようとすると、エラーになる。※インストールの途中でライセンスの確認があるため？
+```sh
+packettracer をインストールできません：
+Error while installing package: new packettracer package pre-installation script subprocess returned error exit status 1 
+```
+3. コマンドでインストールする。
+```sh
+$ sudo apt-get install CiscoPacketTracer_801_ubuntu_64bit.deb  
+```  
+4. ライセンスに同意する。tabキーを押して<了解>を反転させる。
+5. 初回ログイン時、マルチユーザーモードで起動するか訊かれる。（私はNoとしています）
+6. 初回ログイン時、サインインを求められます。Cisco Networking Academy のアカウントでログインします。
+7. 起動します。
+
 # Cisco Packet Tracer 7.2.1 on Ubuntu 18.10
 Cisco Packet Tracer 7.2.1 をUbuntu 18.10 で動かす手順です。
 あまりバージョンアップが活発ではないと思っていたらいつのまにか7.2.1になっていたので、18.10 への対応を期待したのですが、やはり16.04向けという扱いのようで、インストール後そのまま起動しようとしてもライブラリのバージョンが合わずエラーになって起動できませんので、このあたりのWorkaround を書いておきたいと思います。  
