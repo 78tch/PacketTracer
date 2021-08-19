@@ -3,8 +3,9 @@
 1. Cisco Networking Academy から「CiscoPacketTracer_801_ubuntu_64bit.deb」をダウンロードする。  
 2. 「ソフトウェアのインストール」でインストールしようとすると、エラーになる。※インストールの途中でライセンスの確認があるため？
 ```sh
-packettracer をインストールできません：
-Error while installing package: new packettracer package pre-installation script subprocess returned error exit status 1 
+packettracer をインストールできません：  
+Error while installing package:  
+new packettracer package pre-installation script subprocess returned error exit status 1 
 ```
 3. コマンドでインストールする。
 ```sh
