@@ -58,7 +58,12 @@ $ sudo apt-get install CiscoPacketTracer_801_ubuntu_64bit.deb
 |3台のルーターで動的ルーティング||
 
 
-
+|コンフィグレーションモード名|プロンプト|説明|
+|---|---|---|
+|グローバルコンフィグレーションモード|(config)#|CISCO機器全体に関わる設定変更が可能なモード|
+|インターフェースコンフィグレーションモード|(config-if)#|機器のインターフェース部分の設定変更が可能なモード|
+|ルータコンフィグレーションモード|(config-router)#|ルーティングプロトコル部分の設定変更が可能なモード|
+|ラインコンフィグレーションモード|(config-line)#|ライン (console, aux, vty) 部分の設定変更が可能なモード|
 
 # Cisco Packet Tracer 7.2.1 on Ubuntu 18.10
 Cisco Packet Tracer 7.2.1 をUbuntu 18.10 で動かす手順です。
